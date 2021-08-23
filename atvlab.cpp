@@ -16,9 +16,10 @@ int vetor (int n)
     //std::cout << "Nome e valor do item: " << CP[i].item << " " << CP[i].valor << std::endl;
     std::cin >> CP[i].item;
     std::cin >> CP[i].valor;
-    std::cin.ignore();
-    std::cout << "Nome e valor do item: " << CP[i].item << " " << CP[i].valor << std::endl;
-  }
+    //std::cout << "Nome e valor do item: " << CP[i].item << " " << CP[i].valor << std::endl;
+  };
+  
+  // necessário descobrir como retornar os valores da struct na função.
 }
 
 
@@ -28,5 +29,6 @@ int main ()
   int n;
   std::cin >> n;
   vetor(n);
+  
   return 0;
 }
